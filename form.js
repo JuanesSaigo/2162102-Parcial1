@@ -14,9 +14,15 @@ function generarTabla() {
     tabla += "</table>"
     contenedorTabla.innerHTML += tabla;
     document.getElementById('fgusto').value = "";
+
+    /*
+    document.getElementById('g1').style.height += "+ 25px";
+    document.getElementsByClassName('grid0').style.height +="+ 25px"; 
+    document.getElementsByClassName('flag').style.height.va; 
+    document.getElementById('updater').style.height +="+ 25px";
+    document.getElementById('g1').style.height.to;*/
 }
 
 function editarTabla(){
-    var contenedorTabla = document.getElementById('tablaGusto');
-
+    document.getElementById('sending').style.visibility = "visible";
 }
