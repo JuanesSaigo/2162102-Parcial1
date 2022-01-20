@@ -156,3 +156,11 @@ header{
     border-left-color:rgb(64, 213, 224);
     color: white;
 }
+
+.updater{
+    background-color: violet;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: rgb(162, 219, 238);
+}
