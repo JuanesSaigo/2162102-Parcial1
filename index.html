@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDeveloper - Formularios</title>
     <link rel="stylesheet" href="i.css">
+    <script type="text/javascript" src="form.js"></script>
 </head>
 <body>
     <div id="content">
@@ -20,46 +21,54 @@
             </div>
             
             <div class="form1">
-                <div class=form11>
-                    <input class="form111" type="text" name="user" id="fuser" placeholder="Nombre Completo">
-                </div>
-                
-                <div class=form12>
-                    <input class="form111" type="text" name="email" id="femail" placeholder="Email">
-                </div>
-                
-                <div class="form13">
-                    <input class="form111" type="text" name="phone" id="fphone" placeholder="Telefono">
-                </div>
-
-                <div class="like">
-                    <input class="form112" type="text" name="gusto" id="fgusto">
-                    <input class="but" type="button" value="Gustos">
-                </div>
-    
-                <div class="updater">
-                    <div class="flag">
-
+                <form action="resultados.html" method="post">
+                    <div class=form11>
+                        <input class="form111" type="text" name="user" id="fuser" placeholder="Nombre Completo">
                     </div>
-
-                    <div class="grid0">
-                        <div class="g1">
-                            <table>
-                                <tr>
-                                    <td>
-                                        Gusto
-                                    </td>
-                                    <td>
-                                        %
-                                    </td>
-                                    <td>
-                                        edit
-                                    </td>
-                                </tr>
-                            </table>
+                    
+                    <div class=form12>
+                        <input class="form111" type="text" name="email" id="femail" placeholder="Email">
+                    </div>
+                    
+                    <div class="form13">
+                        <input class="form111" type="text" name="phone" id="fphone" placeholder="Telefono">
+                    </div>
+    
+                    <div class="like">
+                        <input class="form112" type="text" name="gusto" id="fgusto">
+                        <input class="but" type="button" value="Gustos" onclick="generarTabla()">
+                    </div>
+        
+                    <div class="updater">
+                        <div class="flag">
+    
+                        </div>
+    
+                        <div class="grid0">
+                            <div id="g1">
+                                <table id="tablaGusto">
+                                    <tr>
+                                        <td>
+                                            Gusto
+                                        </td>
+                                        <td>
+                                            %
+                                        </td>
+                                        <td>
+                                            edit
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                </div>
+
+                    <div id="sending">
+                        <input type="submit" value="Aceptar">
+                        <input type="reset" value="Cancelar">
+                    </div>
+                </form>
+                
             </div>
 
             

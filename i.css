@@ -145,6 +145,7 @@ header{
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     background-color: white;
+    color: rgb(64, 213, 224);
     cursor: pointer;
     border-left-width: 1px;
     border-left-style: dotted;
@@ -196,7 +197,7 @@ header{
     height: 150px;
 }
 
-.g1{
+#g1{
     float: right;
     box-sizing: content-box;
     width: 100%;
@@ -207,11 +208,12 @@ table , td, th {
 	border: 1px solid rgb(162, 219, 238);
 	border-collapse: collapse;
 }
-td, th {
-	padding: 3px;
+td, th , tr{
+	padding: 9px;
 	width: 170px;
 	height: 25px;
     box-sizing: content-box;
+    color: grey;
 }
 th {
 	background: #f5f2ec;
@@ -226,4 +228,8 @@ th {
 
 a{
     color: rgb(70, 139, 167);
+}
+
+#sending{
+    visibility: hidden;
 }
