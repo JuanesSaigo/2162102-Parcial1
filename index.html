@@ -7,6 +7,7 @@
     <title>WebDeveloper - Formularios</title>
     <link rel="stylesheet" href="i.css">
     <script type="text/javascript" src="form.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <div id="content">
@@ -23,19 +24,19 @@
             <div class="form1">
                 <form action="resultados.html" method="post">
                     <div class=form11>
-                        <input class="form111" type="text" name="user" id="fuser" placeholder="Nombre Completo">
+                        <input class="form111" type="text" name="user" id="fuser" placeholder="Nombre Completo" required>
                     </div>
                     
                     <div class=form12>
-                        <input class="form111" type="text" name="email" id="femail" placeholder="Email">
+                        <input class="form111" type="text" name="email" id="femail" placeholder="Email" required>
                     </div>
                     
                     <div class="form13">
-                        <input class="form111" type="text" name="phone" id="fphone" placeholder="Telefono">
+                        <input class="form111" type="text" name="phone" id="fphone" placeholder="Telefono" required>
                     </div>
     
                     <div class="like">
-                        <input class="form112" type="text" name="gusto" id="fgusto">
+                        <input class="form112" type="text" name="gusto" id="fgusto" required>
                         <input class="but" type="button" value="Gustos" onclick="generarTabla()">
                     </div>
         
@@ -46,7 +47,7 @@
     
                         <div class="grid0">
                             <div id="g1">
-                                <table id="tablaGusto">
+                                <table class="tablaA" id="tablaGusto">
                                     <tr>
                                         <td>
                                             Gusto
@@ -64,6 +65,7 @@
                     </div>
 
                     <div id="sending">
+                        <p>¿Está seguro de sus datos? Aceptar para enviar - Cancelar para reiniciar</p>
                         <input type="submit" value="Aceptar">
                         <input type="reset" value="Cancelar">
                     </div>

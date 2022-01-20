@@ -152,6 +152,9 @@ header{
     border-left-color: rgb(64, 213, 224);
     transition-duration: 0.4s;
 }
+.but2{
+    border: none;
+}
 .but:hover{
     background-color: rgb(64, 213, 224);
     border-left-color:rgb(64, 213, 224);
@@ -202,6 +205,11 @@ header{
     box-sizing: content-box;
     width: 100%;
     height: 150px;
+}
+
+.tablaA{
+    box-sizing: content-box;
+    
 }
 
 table , td, th {
