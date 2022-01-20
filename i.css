@@ -50,25 +50,109 @@ header{
 }
 
 .form1{
-    background-color: darkgreen;
+    /*background-color: darkgreen;*/
     width: 100%;
     height: auto;
     margin: auto;
 }
 
 .form11{
-    background-color: rgb(77, 211, 77);
+    /*background-color: rgb(77, 211, 77);*/
+    background-image: url(images/user.png);
+    background-repeat: no-repeat;
+    background-position: 266px ;
+    background-position-y: center;
+    background-size: 30px;
     width: 314px;
     height: 40px;
     border-style: solid;
-    border-color: gray;
+    border-color: rgb(162, 219, 238);
     border-width: 1px;
+    border-radius: 9px;
     padding: 9px;
+    margin-bottom: 12px;
+}
+
+.form12{
+    /*background-color: rgb(77, 211, 77);*/
+    background-image: url(images/95645.png);
+    background-repeat: no-repeat;
+    background-position: 266px ;
+    background-position-y: center;
+    background-size: 30px;
+    width: 314px;
+    height: 40px;
+    border-style: solid;
+    border-color: rgb(162, 219, 238);
+    border-width: 1px;
+    border-radius: 9px;
+    padding: 9px;
+    margin-bottom: 12px;
+}
+
+.form13{
+    background-color: rgb(77, 211, 77);
+    background-image: url(images/phone-call-icon.png);
+    background-repeat: no-repeat;
+    background-position: 266px ;
+    background-position-y: center;
+    background-size: 30px;
+    width: 314px;
+    height: 40px;
+    border-style: solid;
+    border-color: rgb(162, 219, 238);
+    border-width: 1px;
+    border-radius: 9px;
+    padding: 9px;
+    margin-bottom: 12px;
 }
 
 .form111{
     padding: auto;
-    width: 10px;
+    width: 83%;
     background-color: rgb(184, 243, 184);
     border-width: 0px;
+}
+
+.form112{
+    width: 83.63%;
+    height: 100%;
+    border-width: 0px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline-color: rgb(64, 213, 224);
+    padding-right: 80px;
+    padding-left: 9px;
+}
+
+.like{
+    width: 314px;
+    height: 40px;
+    border-style: solid;
+    border-color: rgb(162, 219, 238);
+    border-width: 1px;
+    border-radius: 9px;
+    margin-bottom: 12px;
+}
+
+.but{
+    float: right;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    height: 38px;
+    width: 51px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    border-left-width: 1px;
+    border-left-style: dotted;
+    border-left-color: rgb(64, 213, 224);
+    transition-duration: 0.4s;
+}
+.but:hover{
+    background-color: rgb(64, 213, 224);
+    border-left-color:rgb(64, 213, 224);
+    color: white;
 }
