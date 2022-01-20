@@ -8,15 +8,17 @@ body{
     background-color:rgb(170, 197, 199);
 }
 
-content{
+header{
+    text-align: center; 
+    padding-top: 100px;
+}
+
+#form30{
+    background-color: white;
     width: 400px;
-    border: 11px;
-    border-color: crimson;
-    padding: 30px;
+    height: 450px;
     margin: auto;
+    border: 15px red;
+    padding: 30px;
 }
 
-header{text-align: center; padding-top: 100px; text-size-adjust: 100px;}
-#data{
-
-}
